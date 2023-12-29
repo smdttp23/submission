@@ -545,3 +545,39 @@
         white-space: initial;
     }
 }
+.my-project{
+    display: grid;
+    max-width: 120px;
+    margin-inline: auto;
+    padding-inline: 24px;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 24px;
+  }
+  canvas{
+    height: 150px;
+    width: 400px;
+    border-style: groove;
+    border-color: lightgrey;
+  }
+  
+  .input{
+    font-size: 50px;
+    font-family: Georgia;
+  }
+  .top-heading{
+    padding: 10px 5px;
+    text-align: center;
+  }
+  .table{
+    align-items: center;
+    padding-top: 15px;
+    padding-left: 35%;
+    font-size: larger;
+  }
+  .trow{
+    padding: 10px 5px;
+  }
+  .label-font{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+  }
